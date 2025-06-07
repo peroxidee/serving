@@ -3,6 +3,4 @@ project(serving C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(serving main.c
-        main.h
-        scratch.c)
+add_executable(serving main.c)
