@@ -102,3 +102,6 @@ int main(int argc, char** argv, char* envp) {
 	((UINT(WINAPI*)(LPCSTR, UINT))ptr_WinExec)("calc", SW_SHOW);
 	return 0;
 }
+
+
+// https://0xf00sec.github.io/0x33 was used as reference, will edit the rest soon
